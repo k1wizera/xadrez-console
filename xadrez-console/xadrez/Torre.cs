@@ -12,7 +12,12 @@ namespace xadrez_console.xadrez
         }
         public override string ToString()
         {
-            return "\u265C";
+            if (cor == Cor.Branca)
+            {
+                return "\u265C"; 
+
+            }
+            return "\u2656";
         }
     }
 }
