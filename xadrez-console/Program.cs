@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
 using tabuleiro;
+using xadrez;
 using xadrez_console.tabuleiro;
-using xadrez_console.xadrez;
 
 namespace xadrez_console
 {
