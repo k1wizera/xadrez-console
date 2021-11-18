@@ -11,12 +11,8 @@ namespace xadrez
         }
         public override string ToString()
         {
-            if (cor == Cor.Branca)
-            {
-                return "\u265C"; 
 
-            }
-            return "\u2656";
+            return "T";
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using tabuleiro;
+﻿using System;
+using tabuleiro;
 
 
 namespace xadrez
@@ -11,12 +12,7 @@ namespace xadrez
         }
         public override string ToString()
         {
-            if (cor == Cor.Branca)
-            {
-                return "\u265A";
-
-            }
-            return "\u2654";
+            return "R";
         }
     }
 }
