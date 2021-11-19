@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using tabuleiro;
 using xadrez;
 
@@ -18,6 +19,7 @@ namespace xadrez_console
 
                     try
                     {
+                        Console.OutputEncoding = Encoding.UTF8;
                         Console.Clear();
                         Tela.imprimirPartida(partida);
 
